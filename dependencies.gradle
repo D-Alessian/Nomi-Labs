@@ -47,10 +47,10 @@ dependencies {
     // GT and GCYM, pretty much the 'core' of this coremod (from GTCEu Maven)
     // GT Has Mixins! CHECK MIXINS FOR COMPAT AFTER UPDATING!
     implementation ("gregtech:gregtech:2.8.10-beta") {
-        transitive = false
+        transitive = true
     } // Version 2.8.10
     implementation ("gregicality:GregicalityMultiblocks:1.2.10") {
-        transitive = false
+        transitive = true
     } // Version 1.2.10
 
     // Pack Mode (from CurseForge)
